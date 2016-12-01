@@ -15,7 +15,7 @@ alias gst='git st'
 docker_stop(){
     docker stop $(docker ps -a -q)
 }
-alias dockerstop="docker_stop"
+alias dstop="docker_stop"
 alias dps="docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Ports}}'"
 
 # IP
