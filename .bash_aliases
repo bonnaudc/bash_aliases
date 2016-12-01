@@ -9,7 +9,6 @@ alias vi='nvim'
 alias vimrc='vim ~/.vimrc'
 
 # Git
-alias gst='git st'
 alias gitall="git aa && git cmm 'dirty commit' && git pp"
 
 # Docker
