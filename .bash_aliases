@@ -8,7 +8,7 @@ alias vi='nvim'
 alias vba='nvim ~/.bash_aliases'
 alias ba='source ~/.bash_aliases'
 alias vimrc='vim ~/.vimrc'
-alias workspace='cd ./workspace/'
+alias workspace='cd /workspace/'
 
 # Docker
 docker_stop(){
