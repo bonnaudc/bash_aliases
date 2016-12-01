@@ -9,7 +9,11 @@ alias vi='nvim'
 alias vimrc='vim ~/.vimrc'
 
 # Git
-alias gitall="git aa && git cmm 'dirty commit' && git pp"
+alias gdirty="git aa && git cmm 'dirty commit' && git pp"
+git addAllCommitPush(){
+    git aa && git cmm '$1' && git pp
+}
+alias gitall="addAllCommitPush"
 
 # Docker
 docker_stop(){
