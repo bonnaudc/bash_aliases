@@ -14,6 +14,7 @@ addAllCommitPush(){
     git aa && git cmm '$1' && git pp
 }
 alias gitall="addAllCommitPush"
+alias gsta='git status'
 
 # Docker
 docker_stop(){
