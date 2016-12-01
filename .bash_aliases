@@ -8,6 +8,8 @@ alias workspace='cd /workspace/'
 alias vi='nvim'
 alias vimrc='vim ~/.vimrc'
 
+# Git
+alias gst='git st'
 
 # Docker
 docker_stop(){
