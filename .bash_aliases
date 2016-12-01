@@ -2,7 +2,7 @@
 alias l='ls -la'
 alias ..='cd ..'
 alias datef='echo `date +%Y-%m-%d`'
-alias workspace='cd ~/workspace/'
+alias wsp='cd ~/workspace/'
 
 # Vim
 alias vi='nvim'
