@@ -1,15 +1,23 @@
-FindEditV(){
-	vim -O $(find $1 -type f -name  "$2")
-}
-FindEditH(){
-	vim -o $(find $1 -type f -name "$2")	
-}
-alias fnev=FindEditV
-alias fneh=FindEditH
+# Utils
+alias l='ls -la'
+alias ..='cd ..'
+alias datef='echo `date +%Y-%m-%d`'
 
-alias vba='vim ~/.bash_aliases'
-alias mba='mate ~/.bash_aliases'
-alias sba='subl ~/.bash_aliases'
+# Vim
+alias vi='nvim'
+alias vba='nvim ~/.bash_aliases'
 alias ba='source ~/.bash_aliases'
 alias vimrc='vim ~/.vimrc'
-alias workspace='cd $HOME/workspace/myApp'
+alias workspace='cd ./workspace/'
+
+# Docker
+docker_stop(){
+    docker stop $(docker ps -a -q)
+}
+alias dockerstop="docker_stop"
+
+# IP
+show_ip(){
+    wget http://ipinfo.io/ip -qO -
+}
+alias showip='show_ip'
