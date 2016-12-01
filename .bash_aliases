@@ -23,3 +23,6 @@ show_ip(){
     wget http://ipinfo.io/ip -qO -
 }
 alias showip='show_ip'
+
+# Setup locale to prevent error using pip install
+export LC_ALL=C
