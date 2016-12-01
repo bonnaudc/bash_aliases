@@ -2,13 +2,12 @@
 alias l='ls -la'
 alias ..='cd ..'
 alias datef='echo `date +%Y-%m-%d`'
+alias workspace='cd /workspace/'
 
 # Vim
 alias vi='nvim'
-alias vba='nvim ~/.bash_aliases'
-alias ba='source ~/.bash_aliases'
 alias vimrc='vim ~/.vimrc'
-alias workspace='cd /workspace/'
+
 
 # Docker
 docker_stop(){
