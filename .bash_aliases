@@ -13,7 +13,7 @@ alias gdirty="git aa && git cmm 'dirty commit' && git pp"
 addAllCommitPush(){
     git aa && git cmm "$1" && git pp
 }
-alias gitall="addAllCommitPush"
+alias gitall=addAllCommitPush
 alias gsta='git status'
 
 # Docker
