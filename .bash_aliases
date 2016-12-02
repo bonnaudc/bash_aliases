@@ -11,7 +11,7 @@ alias vimrc='vim ~/.vimrc'
 # Git
 alias gdirty="git aa && git cmm 'dirty commit' && git pp"
 addAllCommitPush(){
-    git aa && git cmm "$1" && git pp
+    git aa && git cmm $1 && git pp
 }
 alias gitall="addAllCommitPush"
 alias gsta='git status'
