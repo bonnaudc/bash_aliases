@@ -5,7 +5,7 @@ alias datef='echo `date +%Y-%m-%d`'
 alias wsp='cd ~/workspace/'
 
 # Vim
-alias vi='nvim'
+alias vim='nvim'
 alias vimrc='vim ~/.vimrc'
 
 # Git
